@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Selena Woodward | Spiritual Business Coach</title>
+  <meta name="description" content="Selena Woodward, Spiritual Business Coach. Thriving Business, Authentic Flow. Join the Clarity Shift, book a free Clarity Call, take the quiz and more.">
+  <meta name="theme-color" content="#F1E6E1">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Selena Woodward | Spiritual Business Coach">
+  <meta property="og:description" content="Thriving Business, Authentic Flow. Your business grows as far as you do.">
+  <meta property="og:image" content="https://assets.cdn.filesafe.space/VAMukTxmBttuY7tlYkLN/media/6a30b2c2c0735fa844bde73c.png">
+  <meta property="og:image:alt" content="Selena Woodward, Spiritual Business Coach">
+  <meta property="og:locale" content="en_AU">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Selena Woodward | Spiritual Business Coach">
+  <meta name="twitter:description" content="Thriving Business, Authentic Flow. Your business grows as far as you do.">
+  <meta name="twitter:image" content="https://assets.cdn.filesafe.space/VAMukTxmBttuY7tlYkLN/media/6a30b2c2c0735fa844bde73c.png">
+
+  <link rel="icon" href="https://storage.googleapis.com/msgsndr/VAMukTxmBttuY7tlYkLN/media/1fa4084c-cb3e-4674-8033-d2caa468ce98.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --navy: #1C244B;
+      --blush: #F1E6E1;
+      --teal: #51A2A6;
+      --coral: #DB725B;
+      --deep-teal: #004D4D;
+      --white: #FFFFFF;
+      --radius: 999px;
+      --shadow: 0 4px 14px rgba(28, 36, 75, 0.08);
+      --shadow-hover: 0 8px 22px rgba(28, 36, 75, 0.14);
+    }
+
+    *, *::before, *::after { box-sizing: border-box; }
+
+    html { -webkit-text-size-adjust: 100%; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: "Poppins", system-ui, -apple-system, "Segoe UI", sans-serif;
+      font-size: 16px;
+      line-height: 1.6;
+      color: var(--navy);
+      background-color: var(--blush);
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .page {
+      width: 100%;
+      max-width: 480px;
+      margin: 0 auto;
+      padding: 40px 20px 32px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    /* Profile */
+    .headshot {
+      width: 128px;
+      height: 128px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid var(--white);
+      box-shadow: var(--shadow);
+      background-color: var(--white);
+    }
+
+    h1 {
+      margin: 20px 0 4px;
+      font-size: 1.3rem;
+      font-weight: 600;
+      line-height: 1.35;
+      color: var(--navy);
+    }
+
+    .nowrap { white-space: nowrap; }
+
+    .tagline {
+      margin: 0;
+      font-size: 1rem;
+      font-weight: 500;
+      color: var(--teal);
+    }
+
+    .intro {
+      margin: 10px 0 0;
+      font-size: 0.95rem;
+      font-weight: 400;
+      opacity: 0.85;
+    }
+
+    /* Buttons */
+    .links {
+      list-style: none;
+      margin: 32px 0 0;
+      padding: 0;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+
+    .btn {
+      display: block;
+      width: 100%;
+      padding: 16px 22px;
+      border-radius: var(--radius);
+      background-color: var(--teal);
+      color: var(--white);
+      font-size: 0.98rem;
+      font-weight: 500;
+      line-height: 1.4;
+      text-decoration: none;
+      box-shadow: var(--shadow);
+      transition: background-color 0.25s ease, transform 0.25s ease, box-shadow 0.25s ease;
+    }
+
+    .btn:hover,
+    .btn:focus-visible {
+      background-color: var(--deep-teal);
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-hover);
+    }
+
+    .btn:focus-visible {
+      outline: 3px solid var(--navy);
+      outline-offset: 3px;
+    }
+
+    .btn--feature {
+      background-color: var(--coral);
+      font-weight: 600;
+      font-size: 1.05rem;
+      padding: 19px 22px;
+    }
+
+    /* Social icons */
+    .social {
+      list-style: none;
+      margin: 36px 0 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      gap: 14px;
+    }
+
+    .social a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 46px;
+      height: 46px;
+      border-radius: 50%;
+      background-color: var(--white);
+      color: var(--navy);
+      box-shadow: var(--shadow);
+      transition: background-color 0.25s ease, color 0.25s ease, transform 0.25s ease;
+    }
+
+    .social a:hover,
+    .social a:focus-visible {
+      background-color: var(--deep-teal);
+      color: var(--white);
+      transform: translateY(-2px);
+    }
+
+    .social a:focus-visible {
+      outline: 3px solid var(--navy);
+      outline-offset: 3px;
+    }
+
+    .social svg {
+      width: 22px;
+      height: 22px;
+      fill: currentColor;
+    }
+
+    /* Footer */
+    footer {
+      margin-top: 44px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.8rem;
+      opacity: 0.8;
+    }
+
+    .logo {
+      width: 160px;
+      height: auto;
+      margin-bottom: 6px;
+    }
+
+    footer p { margin: 0; }
+
+    footer a {
+      color: var(--navy);
+      text-decoration: underline;
+      text-underline-offset: 3px;
+      transition: color 0.25s ease;
+    }
+
+    footer a:hover,
+    footer a:focus-visible { color: var(--deep-teal); }
+
+    @media (min-width: 600px) {
+      .page { padding-top: 64px; }
+      .headshot { width: 144px; height: 144px; }
+      h1 { font-size: 1.45rem; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .btn, .social a { transition: none; }
+      .btn:hover, .btn:focus-visible,
+      .social a:hover, .social a:focus-visible { transform: none; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <img
+      class="headshot"
+      src="https://assets.cdn.filesafe.space/VAMukTxmBttuY7tlYkLN/media/6a30b2c2c0735fa844bde73c.png"
+      alt="Selena Woodward smiling"
+      width="144" height="144">
+
+    <h1><span class="nowrap">Selena Woodward |</span> <span class="nowrap">Spiritual Business Coach</span></h1>
+    <p class="tagline">Thriving Business, Authentic Flow.</p>
+    <p class="intro">Your business grows as far as you do.</p>
+
+    <ul class="links">
+      <li><a class="btn btn--feature" href="https://offers.selenawoodward.com/the-clarity-shift-page">Join the next Clarity Shift</a></li>
+      <li><a class="btn" href="https://selenawoodward.com/call">Book a free Clarity Call</a></li>
+      <li><a class="btn" href="https://selenawoodward.com/quiz">Take the quiz: what's your business reflecting back?</a></li>
+      <li><a class="btn" href="https://selenawoodward.com/magic">Get the 3-Step Magnetic Message</a></li>
+      <li><a class="btn" href="https://www.youtube.com/@BizCoachSelena">Watch the Inner Business Podcast</a></li>
+    </ul>
+
+    <ul class="social" aria-label="Social media">
+      <li>
+        <a href="https://www.instagram.com/bizcoachselena/" aria-label="Instagram" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.16c3.2 0 3.58.01 4.85.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.42.36 1.06.41 2.23.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.42.16-1.06.36-2.23.41-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.8-.25-2.23-.41a3.72 3.72 0 0 1-1.38-.9 3.72 3.72 0 0 1-.9-1.38c-.16-.42-.36-1.06-.41-2.23C2.17 15.58 2.16 15.2 2.16 12s.01-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.42-.16 1.06-.36 2.23-.41C8.42 2.17 8.8 2.16 12 2.16M12 0C8.74 0 8.33.01 7.05.07 5.78.13 4.9.33 4.14.63c-.79.3-1.46.72-2.12 1.38A5.86 5.86 0 0 0 .63 4.14C.33 4.9.13 5.78.07 7.05.01 8.33 0 8.74 0 12s.01 3.67.07 4.95c.06 1.27.26 2.15.56 2.91.3.79.72 1.46 1.38 2.12a5.86 5.86 0 0 0 2.13 1.38c.76.3 1.64.5 2.91.56C8.33 23.99 8.74 24 12 24s3.67-.01 4.95-.07c1.27-.06 2.15-.26 2.91-.56a5.86 5.86 0 0 0 2.12-1.38 5.86 5.86 0 0 0 1.38-2.12c.3-.76.5-1.64.56-2.91.06-1.28.07-1.69.07-4.95s-.01-3.67-.07-4.95c-.06-1.27-.26-2.15-.56-2.91a5.86 5.86 0 0 0-1.38-2.13A5.86 5.86 0 0 0 19.86.63C19.1.33 18.22.13 16.95.07 15.67.01 15.26 0 12 0zm0 5.84a6.16 6.16 0 1 0 0 12.32 6.16 6.16 0 0 0 0-12.32zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.4-11.85a1.44 1.44 0 1 0 0 2.88 1.44 1.44 0 0 0 0-2.88z"/></svg>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.youtube.com/@BizCoachSelena" aria-label="YouTube" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23.5 6.19a3.02 3.02 0 0 0-2.12-2.14C19.5 3.55 12 3.55 12 3.55s-7.5 0-9.38.5A3.02 3.02 0 0 0 .5 6.19C0 8.07 0 12 0 12s0 3.93.5 5.81a3.02 3.02 0 0 0 2.12 2.14c1.88.5 9.38.5 9.38.5s7.5 0 9.38-.5a3.02 3.02 0 0 0 2.12-2.14C24 15.93 24 12 24 12s0-3.93-.5-5.81zM9.55 15.57V8.43L15.82 12l-6.27 3.57z"/></svg>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/selenawoodward/" aria-label="LinkedIn" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg>
+        </a>
+      </li>
+    </ul>
+
+    <footer>
+      <img
+        class="logo"
+        src="https://storage.googleapis.com/msgsndr/VAMukTxmBttuY7tlYkLN/media/1fa4084c-cb3e-4674-8033-d2caa468ce98.png"
+        alt="Biz Coach Selena logo"
+        loading="lazy">
+      <p>&copy; 2026 Selena Woodward</p>
+      <p><a href="https://selenawoodward.com/privacy-policy/">Privacy Policy</a></p>
+    </footer>
+  </main>
+</body>
+</html>
